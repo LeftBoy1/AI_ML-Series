@@ -1,0 +1,3 @@
+1. Contours are who detects object boudaries in image while, canny edge detection detects all edges of an image, not an object
+
+2. Contours needs binary image(black & white)

@@ -1,0 +1,40 @@
+'''
+Whisper is a Speech-to-Text (STT) neural network.
+
+Internally, Whisper does this:
+
+🎙️ Takes raw audio (waveform)
+
+🔊 Converts it to a log-Mel spectrogram
+
+🤖 Encoder reads the spectrogram
+
+🧩 Decoder predicts text tokens
+
+📄 Tokens → readable text
+
+You do NOT need internet once the model is downloaded.
+'''
+
+
+
+'''
+| Library        | Purpose                   |
+| -------------- | ------------------------- |
+| faster-whisper | Speech recognition engine |
+| sounddevice    | Capture mic audio         |
+| numpy          | Audio buffer handling     |
+| scipy          | Save audio to WAV         |
+'''
+
+
+'''
+WHISPER MODELS -
+| Model   | Size   | Speed       | Accuracy      | Use        |
+| ------- | ------ | ---------   | --------      | ---------- |
+| tiny    | ~75MB  | 🚀 Fast     | ⭐⭐⭐      | Testing    |
+| base    | ~140MB | ⚡ Balanced | ⭐⭐⭐⭐    | ✅ Best   |
+| small   | ~460MB | 🐢 Slower   | ⭐⭐⭐⭐⭐ | GPU        |
+| medium+ | Huge   | 🐌          | ⭐⭐⭐⭐⭐ | Not needed |
+| large   | ~3GB   | 🐢🐢        |              | 🔥         |
+'''

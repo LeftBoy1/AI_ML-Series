@@ -1,0 +1,15 @@
+            IMAGE PROCESSING
+
+1. CANNY EDGE DETECTION - detects edges of an object in image
+        * used to detect borders
+        * seperated objects
+        * features extraction   
+
+2. IMAGE THRESHOLDING - converts complex images into black(if a pixel is tending a little bit towards black) and white(if pixel is tending a little bit towards white) clear image (They control which edges are kept and which are discarded.)
+    a.) Binary THRESHOLDING
+    b.) Adaptive THRESHOLDING
+
+3.Bitwise Operators - used to combine images and help to cut shapes and helps to flip/remove specific areas
+    a.) AND Operators - cv2.bitwise_and(img1, img2)  >>> shows intersection of both images
+    b.) OR Operators - cv2.bitwise_or(img1, img2)    >>> shows both images
+    c.) NOT Operators - cv2.bitwise_not(img1)        >>> invert the image
