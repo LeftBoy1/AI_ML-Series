@@ -13,8 +13,6 @@ df = pd.DataFrame(data)
 
 
 
-
-
 #Selecting single Column- 
 print(df["Name"])
 
@@ -26,8 +24,8 @@ print(df[["City", "Age","Salary"]])
 #BOOLEAN INDEXING
 
 #Filterating Rows with single Condition-
-sinlge_cond = df[df["Age"] > 17]
-print(sinlge_cond)
+single_cond = df[df["Age"] > 17]
+print(single_cond)
 
 #Filterating Rows with multi Condition-
 multi_cond = df[ ( df["Age"] > 17 ) & ( df["Performance_Score"] > 95) ]

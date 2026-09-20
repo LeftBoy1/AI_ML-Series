@@ -1,7 +1,13 @@
 import pandas as pd
 
+'''encoding tells Pandas how to decode characters in a text file.
+utf-8 → most common encoding
+latin1 → useful for some older datasets
+Prevents errors like UnicodeDecodeError'''
+
 #Read Data from csv file into a dataframe
-df = pd.read_csv("F:\Devansh Gupta\AI + ML\Pandas\sales_data_sample.csv", encoding = "latin1")
+df = pd.read_csv("F:\Devansh Gupta\AI + ML\Pandas\sales_data_sample.csv", encoding = "latin1")    
+
 print(df)
 
 #Read Data from xlsx file into a dataframe

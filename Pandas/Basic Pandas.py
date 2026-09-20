@@ -44,7 +44,7 @@ import pandas as pd
 a = pd.DataFrame({ "Name":["Poorvanshi", "Devansh", "Harsh"], "Surname" : ["Bhardwaj", "Gupta", "Gupta"]})
 print(f"\n{a}")
 
-'''.iloc[] is used for integer-location based indexing — that means you access rows and columns by their positions (numbers) rather than their labels. It’s very flexible for selecting, slicing, or filtering data.
+'''.iloc[] is used for integer-location based indexing — that means you access rows and columns by their positions (numbers) rather than their labels. It's very flexible for selecting, slicing, or filtering data.
 '''
 print(a.iloc[0])
 print(a.head())

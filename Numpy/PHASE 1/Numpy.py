@@ -39,7 +39,7 @@ print("\n",time.time()- start,"\n")
 
 
 '''
-np.arange() - Creating an array with evenly spaced values within a given range, similar to Python’s range() but it returns a NumPy array.
+np.arange() - Creating an array with evenly spaced values within a given range, similar to Python's range() but it returns a NumPy array.
         SYNTAX - 
                     numpy.arange(start, stop, step)
 '''

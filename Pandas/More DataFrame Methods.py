@@ -12,6 +12,6 @@ df = pd.DataFrame(data)
 
 
 
-print(f"Shape: {df.shape}")   #showing shape
+print(f"Shape: {df.shape}\n")   #showing shape
 
 print(f"Columns: {df.columns}") #showing Columns

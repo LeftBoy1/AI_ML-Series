@@ -5,6 +5,7 @@
 import numpy as np
 x = np.full((300,300),7)
 print(x)
+
 zero = np.zeros((3,3))
 print(zero,"\n")
 
@@ -13,6 +14,11 @@ print(one,"\n")
 
 full = np.full((3,3),7)
 print(full,"\n")
+
+'''np.full()   → any value
+np.zeros()  → 0
+np.ones()   → 1
+'''
 
 
 
@@ -24,6 +30,8 @@ np.random.rand() - You pass shape directly as arguments
     
 np.random.random() - You pass shape as a tuple
     Example - np.random.random((3, 2))
+    
+Note:- both generate random numbers between 0 and 1.
 '''
 random = np.random.random((3,3))
 print(random,"\n")

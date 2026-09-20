@@ -5,7 +5,7 @@ row1 = np.full(4, 1)
 row2 = np.full(4, 2)
 row3 = np.full(4, 3)
 
-matrix = np.vstack([row1, row2, row3])
+matrix = np.vstack([row1, row2, row3])  #np.vstack() is used to stack arrays vertically (row-wise).
 print(matrix)
 
 
