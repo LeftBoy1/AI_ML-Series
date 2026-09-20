@@ -96,6 +96,3 @@ create table city(
 	age int CHECK (age >= 18),
     city varchar(50) CHECK (city = 'Delhi')
 );
-    
-
-
