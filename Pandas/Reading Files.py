@@ -6,16 +6,16 @@ latin1 → useful for some older datasets
 Prevents errors like UnicodeDecodeError'''
 
 #Read Data from csv file into a dataframe
-df = pd.read_csv("F:\Devansh Gupta\AI + ML\Pandas\sales_data_sample.csv", encoding = "latin1")    
+df = pd.read_csv("D:\Devansh_Gupta\AI + ML\Pandas\sales_data_sample.csv", encoding = "latin1")    
 
 print(df)
 
 #Read Data from xlsx file into a dataframe
-df2 = pd.read_excel("F:\Devansh Gupta\AI + ML\Pandas\SampleSuperstore.xlsx")
+df2 = pd.read_excel("D:\Devansh_Gupta\AI + ML\Pandas\SampleSuperstore.xlsx")
 print(df2)
 
 #Read Data from json file into a dataframe
-df3 = pd.read_json("F:\Devansh Gupta\AI + ML\Pandas\sample_Data.json", encoding="latin1")
+df3 = pd.read_json("D:\Devansh_Gupta\AI + ML\Pandas\sample_Data.json", encoding="latin1")
 print(df3)
 
 

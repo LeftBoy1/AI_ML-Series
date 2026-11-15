@@ -1,7 +1,7 @@
 import pandas as pd
 #Displaying Head & Tail in Rows-
 
-df = pd.read_json("F:\Devansh_Gupta\AI + ML\Pandas\sample_Data.json", encoding="latin1")    
+df = pd.read_json("D:\Devansh_Gupta\AI + ML\Pandas\sample_Data.json", encoding="latin1")    
 
 '''
 

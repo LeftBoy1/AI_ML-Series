@@ -56,7 +56,7 @@ print(a.info())
 
 #   (in CSV file)
 import pandas as pd
-df = pd.read_csv("F:\Devansh Gupta\AI + ML\Pandas\Data.csv")
+df = pd.read_csv("D:\Devansh_Gupta\AI + ML\Pandas\Data.csv")
 print(df)
 
 ''' 1. dropna() = Removes rows that contain missing values (NaN)
