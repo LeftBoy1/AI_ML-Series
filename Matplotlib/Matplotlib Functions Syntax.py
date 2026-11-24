@@ -1,11 +1,11 @@
-# plt.plot(x, y, color='color name', linestyle= 'line_style', linewidth = value, marker= 'marker symbol', label= 'label name')
+# plt.plot(x, y, color='color_name', linestyle= 'line_style', linewidth = value, marker= 'marker symbol', label= 'label_name')
 
 import matplotlib.pyplot as plt
 
 x = [ 1,2,3,4]
 y = [100,350,150,400]
 
-plt.plot(x, y, color = 'blue', linestyle = '--', linewidth = '2', marker = 'o', label = "2025 Sales Data")
+plt.plot(x, y, color = 'blue', linestyle = '--', linewidth = 2, marker = 'o', label = "2025 Sales Data")
 plt.show()
 
 
@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 x = [ 1,2,3,4]
 y = [100,350,150,400]
 
-plt.plot(x, y, color = 'blue', linestyle = '--', linewidth = '2', marker = 'o', label = "2025 Sales Data")
+plt.plot(x, y, color = 'blue', linestyle = '--', linewidth = 2, marker = 'o', label = "2025 Sales Data")
 plt.xlabel("M o n t h s")
 plt.ylabel("S a l e s   p e r   M o n t h")
 plt.show()
@@ -39,7 +39,7 @@ import matplotlib.pyplot as plt
 x = [ 1,2,3,4]
 y = [100,350,150,400]
 
-plt.plot(x, y, color = 'blue', linestyle = '--', linewidth = '2', marker = 'o', label = "2025 Sales Data")
+plt.plot(x, y, color = 'blue', linestyle = '--', linewidth = 2, marker = 'o', label = "2025 Sales Data")
 plt.xlabel("M o n t h s")
 plt.ylabel("S a l e s   p e r   M o n t h s")
 plt.title('Sales Data Report')
@@ -59,8 +59,8 @@ x = [ 1,2,3,4]
 y = [100,350,150,400]
 x1 =  [1,2,3,4]
 y1 = [500,400,200,333]
-plt.plot(x, y, color = 'purple', linestyle = '--', linewidth = '2', marker = 'o', label = "2024 Sales Data")
-plt.plot(x1, y1, color = 'blue', linestyle = '--', linewidth = '2', marker = 'o', label = "2025 Sales Data")
+plt.plot(x, y, color = 'purple', linestyle = '--', linewidth = 2, marker = 'o', label = "2024 Sales Data")
+plt.plot(x1, y1, color = 'blue', linestyle = '--', linewidth = 2, marker = 'o', label = "2025 Sales Data")
 
 plt.xlabel("M o n t h s")
 plt.ylabel("S a l e s   p e r   M o n t h")
@@ -75,13 +75,13 @@ plt.show()
 
 
 
-# plt.grid(color= 'color name', linestyle= ':', linewitdh = value)              
+# plt.grid(color= 'color_name', linestyle= ':', linewitdh = value)              
 import matplotlib.pyplot as plt
 
 x = [ 1,2,3,4]
 y = [100,350,150,400]
 
-plt.plot(x, y, color = 'green', linestyle = '--', linewidth = '2', marker = 'o', label = "2025 Sales Data")
+plt.plot(x, y, color = 'orange', linestyle = '--', linewidth = 2, marker = 'o', label = "2025 Sales Data")
 plt.xlabel("M o n t h s")
 plt.ylabel("S a l e s   p e r   M o n t h")
 plt.legend(loc='upper left', fontsize= 12)
@@ -102,13 +102,13 @@ import matplotlib.pyplot as plt
 x = [ 1,2,3,4]
 y = [100,350,150,400]
 
-plt.plot(x, y, color = 'green', linestyle = '--', linewidth = '2', marker = 'o', label = "2025 Sales Data")
+plt.plot(x, y, color = 'green', linestyle = '--', linewidth = 2, marker = 'o', label = "2025 Sales Data")
 plt.xlabel("M o n t h s")
 plt.ylabel("S a l e s   p e r   M o n t h")
 plt.legend(loc='upper left', fontsize= 12)
 plt.grid(color='grey', linestyle=':', linewidth=1)
 plt.xlim(1,10)
-plt.ylim(100,500)
+plt.ylim(0,500)
 plt.show()
 
 
@@ -124,7 +124,7 @@ import matplotlib.pyplot as plt
 x = [ 1,2,3,4]
 y = [100,350,150,400]
 
-plt.plot(x, y, color = 'green', linestyle = '--', linewidth = '2', marker = 'o', label = "2025 Sales Data")
+plt.plot(x, y, color = 'green', linestyle = '--', linewidth = 2, marker = 'o', label = "2025 Sales Data")
 plt.xlabel("M o n t h s")
 plt.ylabel("S a l e s   p e r   M o n t h")
 plt.legend(loc='upper left', fontsize= 12)

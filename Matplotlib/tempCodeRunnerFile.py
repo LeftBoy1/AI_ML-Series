@@ -1,16 +1,16 @@
+# plt.scatter(x, y, color= 'color name', marker = 'marker style', label = 'label name')
 
-# plt.subplot(nrows, ncols, index)
+
+#Case 1 
 import matplotlib.pyplot as plt
 
-x = [1,2,3,4]
-y = [5,15,10,20]
-
-plt.subplot(1, 2, 2)
-plt.plot(x, y)
-plt.title('Line Chart')
-
-plt.subplot(1, 2, 1)
-plt.bar(x, y)
-plt.title('Bar Chart')
+hrs = [1,2,3,4,5,6,7,8]
+scores = [55,59,60,66,75,78,98,112]
+plt.plot(hrs, scores, color= 'orange',linestyle = '--', linewidth = 2, marker = 'o', label = 'Student Data')
+plt.title('Scores According to Hours Studing')
+plt.xlabel('Hours Study')
+plt.ylabel('Exam Scores')
+plt.grid(True)
+plt.legend()
 plt.show()
 
