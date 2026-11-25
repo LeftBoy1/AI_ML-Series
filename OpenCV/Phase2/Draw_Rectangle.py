@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("F:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase 1\\o.jpg")
+img = cv2.imread("D:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase 1\\o.jpg")
 
 # cv2.rectangle(img, pt1, pt2, color, thickness)
 

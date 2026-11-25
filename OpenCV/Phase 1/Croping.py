@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("F:\\Devansh_Gupta\\AI + ML\\OpenCV\\o.jpg")
+img = cv2.imread(r"D:\Devansh_Gupta\AI + ML\OpenCV\Phase 1\o.jpg")
 
 # crop = img[start[y]:end[y] , start[x]:end[x]]
   

@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread(r"F:\Devansh_Gupta\AI + ML\OpenCV\Phase 1\o.jpg")
+img = cv2.imread(r"D:\Devansh_Gupta\AI + ML\OpenCV\Phase 1\o.jpg")
 
 # resize = cv2.resize(src, dsize, fx, fy, interpolation)
     # src = image file

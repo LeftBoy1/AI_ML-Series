@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("F:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase 1\\o.jpg")
+img = cv2.imread("D:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase 1\\o.jpg")
 
 # cv2.circle(img, centre, radius, color, thickness)
     
@@ -13,7 +13,7 @@ centre = (600,350)
 color = (0,0 ,255)      
 radius = 70
 cv2.circle(img, centre, radius, color, 3)
-cv2.imshow("Circle",img)
+cv2.imshow("Circle1",img)
 
 
 #CIRCLE 2

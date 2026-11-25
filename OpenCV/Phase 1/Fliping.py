@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread(r"F:\Devansh_Gupta\AI + ML\OpenCV\Phase 1\o.jpg")
+img = cv2.imread(r"D:\Devansh_Gupta\AI + ML\OpenCV\Phase 1\o.jpg")
 
 # variable = cv2.flip(img, value)   
     # value = 1 >>>> Horizontal

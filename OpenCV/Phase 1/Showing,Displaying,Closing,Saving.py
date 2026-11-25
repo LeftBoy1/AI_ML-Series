@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread(r"F:\Devansh_Gupta\AI + ML\OpenCV\Phase 1\o.jpg")
+img = cv2.imread(r"D:\Devansh_Gupta\AI + ML\OpenCV\Phase 1\o.jpg")
 #  imread() is used to load an image.   
 
 cv2.imshow("Opencv", img) #display the window(image),  window is title of window
