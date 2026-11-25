@@ -19,7 +19,7 @@ while True:
     cv2.imshow("Webcame Feed", frame)
 
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord('q'):   #0xFF helps filter the key code
         print("quitting...")
         break
     
