@@ -14,5 +14,5 @@ import numpy as np
 num = np.array([1,2,3,4,5,6,7,8,9,10])
 mask = num > 5
 
-print(f"{num[mask]}\n\n")
+print(f"{num[mask]}\n")
 print(f"{mask}\n")

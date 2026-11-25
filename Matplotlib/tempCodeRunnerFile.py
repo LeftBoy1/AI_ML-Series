@@ -1,16 +1,20 @@
-# plt.scatter(x, y, color= 'color name', marker = 'marker style', label = 'label name')
 
-
-#Case 1 
+# (Using Object Oriented API)
+# fig, ax = plt.subplots(nrows, ncols, figsize= (width, height))
 import matplotlib.pyplot as plt
 
-hrs = [1,2,3,4,5,6,7,8]
-scores = [55,59,60,66,75,78,98,112]
-plt.plot(hrs, scores, color= 'orange',linestyle = '--', linewidth = 2, marker = 'o', label = 'Student Data')
-plt.title('Scores According to Hours Studing')
-plt.xlabel('Hours Study')
-plt.ylabel('Exam Scores')
-plt.grid(True)
-plt.legend()
+fig, ax = plt.subplots(1, 2, figsize= (10,5))
+
+x = [1,2,3,4]
+y = [5,15,10,20]
+
+ax[0].plot(x, y, color = 'blue')
+ax[0].set_title('Line Plot')
+
+ax[1].bar(x, y, color = 'green')
+ax[1].set_title('Bar Chart')
+
+plt.suptitle("Comparison of Line and Bar Charts")
+plt.tight_layout()
 plt.show()
 

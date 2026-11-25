@@ -17,7 +17,7 @@ print(load_arr1)
 #DARK MODE
 
 try:
-    logo = plt.imread('F:\\Devansh_Gupta\\AI + ML\\Numpy\\PHASE 4\\o.jpg')
+    logo = plt.imread('D:\\Devansh_Gupta\\AI + ML\\o.jpg')
     
     #Display
     plt.figure(figsize=(10, 6))

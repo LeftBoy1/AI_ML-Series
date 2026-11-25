@@ -4,3 +4,6 @@ arr = np.array([[2,3,4],
         [1,2,3]])
 print("Shape:", arr.shape)
 print("Size:", arr.size)
+print("Dimension:", arr.ndim,"D")
+print("Data Type:", arr.dtype)
+

@@ -11,11 +11,11 @@ print(arr2)
 #PY VS NP ARRAY-
 
     #PY
-import numpy as np
 py_array = [1,2,3]
 print(py_array*2)
 
     #NP
+import numpy as np
 np_array = np.array([1,3,5])
 print(np_array*2)
 
@@ -33,7 +33,7 @@ print("\n",time.time()- start)
 import numpy as np
 import time
 start = time.time()
-np_array = np.arange(1000)/2           # starts from 0 to 999 and gets multiple by 2
+np_array = np.arange(1000)/2           # starts from 0 to 999 and gets divided by 2
 print(np_array)
 print("\n",time.time()- start,"\n")
 

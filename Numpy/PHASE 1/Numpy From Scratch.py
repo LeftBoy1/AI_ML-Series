@@ -3,8 +3,6 @@
 # matrix = np.full((3, 3), values)
 
 import numpy as np
-x = np.full((300,300),7)
-print(x)
 
 zero = np.zeros((3,3))
 print(zero,"\n")
@@ -33,6 +31,8 @@ np.random.random() - You pass shape as a tuple
     
 Note:- both generate random numbers between 0 and 1.
 '''
+import numpy as np
+
 random = np.random.random((3,3))
 print(random,"\n")
 
