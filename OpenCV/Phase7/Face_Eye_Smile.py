@@ -1,8 +1,8 @@
 import cv2
 
-face_cascade = cv2.CascadeClassifier("F:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase7\\haarcascade_frontalface_default.xml")
-eye_cascade = cv2.CascadeClassifier("F:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase7\\haarcascade_eye.xml")
-smile_cascade = cv2.CascadeClassifier("F:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase7\\haarcascade_smile.xml")
+face_cascade = cv2.CascadeClassifier("D:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase7\\haarcascade_frontalface_default.xml")
+eye_cascade = cv2.CascadeClassifier("D:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase7\\haarcascade_eye.xml")
+smile_cascade = cv2.CascadeClassifier("D:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase7\\haarcascade_smile.xml")
 
 cap = cv2.VideoCapture(0)
 

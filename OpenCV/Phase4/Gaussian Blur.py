@@ -1,18 +1,16 @@
-'''Uses a Gaussian kernel (bell-shaped curve).
-Each pixel is replaced by a weighted average of its neighbors.
-Closer pixels have more influence than farther ones.
+'''
+Gaussian Blur is an image-smoothing technique that reduces noise and details by applying a Gaussian-weighted average to neighbouring pixels.
+In simple words, it makes an image look blurry or smooth.
+'''
 
-Effect on edges-
-❌ Blurs edges
-❌ Fine details may be lost'''
-
+# Kernel size controls the neighbourhood used for processing, and different sizes produce different levels of effect.
 import cv2
 
 # blurred_img = cv2.GaussianBlur(image, (kernel_size_x , kernel_size_y), sigma)
 
         #sigma = opacicty of blur
         
-image = cv2.imread("F:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase4\\o.jpg")
+image = cv2.imread("D:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase4\\o.jpg")
 
 blurred_img = cv2.GaussianBlur(image, (7,7), 2)
 

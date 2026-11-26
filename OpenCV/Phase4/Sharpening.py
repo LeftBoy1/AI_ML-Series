@@ -1,3 +1,7 @@
+'''
+harpening is an image-processing technique that enhances edges and fine details to make an image appear clearer and more defined.
+In simple words, it makes an image look sharper rather than blurry.
+'''
 import cv2
 import numpy as np
 
@@ -6,8 +10,10 @@ import numpy as np
 '''
     ddepth means Destination Depth.
     It defines the data type (bit depth) of the output image after applying a filter (like sharpening).
-'''
-image = cv2.imread("F:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase4\\o.jpg")
+    In simple words:
+            ddepth decides how pixel values will be stored in the resulting image.
+    '''
+image = cv2.imread("D:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase4\\o.jpg")
 
 sharpen_kernel = np.array([
     [0 , -1 , 0],
