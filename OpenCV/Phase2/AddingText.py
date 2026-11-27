@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("F:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase 1\\o.jpg")
+img = cv2.imread("D:\\Devansh_Gupta\\AI + ML\\OpenCV\\Phase 1\\o.jpg")
 
 # cv2.putText(img, org, font, fontScale, color, thickness)
     # org = value of x,y    (org means “origin point” of the text. It defines where the text will start on the image.)

@@ -1,0 +1,20 @@
+A grayscale image contains different shades of grey, ranging from black to white.
+
+A threshold image is obtained by applying a threshold value (T) to a grayscale image. Thresholding is the process used to convert a grayscale image into a binary image.
+
+A binary image is an image that contains ONLY two pixel values. There are no grey shades.
+
+
+
+
+
+
+Canny Edge
+- Finds changes in brightness.
+- Detects edges, including small details.
+- Produces an edge image.
+
+Contours
+- Finds continuous boundaries.
+- Represents boundaries as coordinates.
+- Helps measure object shapes.
