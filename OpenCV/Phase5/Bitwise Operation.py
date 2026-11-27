@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 '''
 np.zeros() creates a black image
-np.zeros((300,300)) → a 300×300 matrix filled with 0
+np.zeros((300,300)) → a 300x300 matrix filled with 0
 
 In images:
 0 = black
